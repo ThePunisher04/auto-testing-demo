@@ -1,5 +1,5 @@
 name: CI
-#added this comment
+#added this comment again
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
       - main  # or the branch you want to test against
 
 jobs:
-  build:
+  hello:
     runs-on: ubuntu-latest
 
     steps:
