@@ -7,7 +7,7 @@ on:
       - main  # or the branch you want to test against
 
 jobs:
-  hello:
+  ci:
     runs-on: ubuntu-latest
 
     steps:
