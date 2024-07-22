@@ -1,4 +1,5 @@
 name: CI
+#added this comment again
 
 on:
   pull_request:
@@ -6,14 +7,14 @@ on:
       - main  # or the branch you want to test against
 
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Node.js (example for a Node.js project)
+      - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '14'
